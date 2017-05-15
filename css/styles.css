@@ -70,6 +70,10 @@ select {
     font-weight: 300;
 	width: 100%;
 	color: #6e7d8d;
+	-webkit-transition: all 0.50s ease-in-out;
+	-moz-transition: all 0.50s ease-in-out;
+	-ms-transition: all 0.50s ease-in-out;
+	-o-transition: all 0.50s ease-in-out;
 }
 
 input[type="radio"],
