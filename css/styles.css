@@ -1,0 +1,197 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+
+body {
+	color: #6e7d8d;
+	font-family: 'Merriweather', serif;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 1.25em;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0px;
+}
+
+h2 {
+	color: #2d3945;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+hr {
+	border: 1px solid #2d3945;
+	margin: 3px 0px;
+}
+
+fieldset {
+	border: none;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+}
+
+
+
+legend {
+	color: #2d3945;
+	font-size: 1.3em;
+	font-weight: 700;
+	padding: 30px 0px;
+}
+
+label {
+	font-size: 1em;
+	font-weight: 300;
+	display: block;
+	padding-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+	background: #eff0f1;
+	border: 2px solid #eff0f1;
+	border-radius: 5px;
+	padding: 18px;
+	margin-bottom: 20px;
+    font-size: 1em;
+    font-weight: 300;
+	width: 100%;
+	color: #6e7d8d;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 10px 10px 10px 0px;
+}
+
+textarea {
+	margin-top: 10px;
+	height: 100px;
+}
+
+select {
+  padding: 18px;
+  height: 58px;
+}
+
+input::placeholder {
+  color: #b3b8bb;
+  text-align: right;
+  font-size: .75em;
+  font-style: italic;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	border: 2px solid #2d3945;
+	outline: none;
+}
+
+input[type="number"].half {
+	width: 50%;
+}
+
+.form-container{
+	margin-bottom: 20px;
+}
+
+.light {
+	display: inline;
+
+}
+
+button {
+	background: #4ebbb5;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: 'Merriweather', serif;
+	width: 100%;
+	padding: 20px 0px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #45a29d;
+	color: #fff;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 600px;
+}
+
+.title {
+	background: #2d3945;
+	padding: 28px 0px;
+	text-align: center;
+}
+
+.intro {
+	border-bottom: 4px solid #2d3945;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.intro p {
+	color: #a4a9ae;
+	font-weight: 300;
+}
+
+footer {
+	color: #9da3a8;
+	text-align: center;
+	font-size: .8em;
+	font-style: italic;
+	margin: 30px 0px;
+}
+
+@media (min-width: 768px) {
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+select {
+	display: inline-block;
+	width: 63%;
+}
+
+label {
+	width: 36%;
+	display: inline-block;
+}
+
+.newsletter label {
+	width: 100%;
+	padding-bottom: 12px;
+}
+
+input[type="number"].half{
+	width: 33%;
+}
+	
+}
