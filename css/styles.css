@@ -22,6 +22,10 @@ h2 {
 	font-weight: 700;
 }
 
+h3 {
+	margin: 0 0 12px;
+}
+
 hr {
 	border: 1px solid #2d3945;
 	margin: 3px 0px;
@@ -32,8 +36,6 @@ fieldset {
 	margin: 0px;
 	padding: 0px 0px 10px 0px;
 }
-
-
 
 legend {
 	color: #2d3945;
@@ -107,7 +109,7 @@ textarea:focus {
 	outline: none;
 }
 
-input[type="number"].half {
+input[type="text"].half {
 	width: 50%;
 }
 
@@ -144,7 +146,7 @@ button:hover {
 }
 
 .title {
-	background: #2d3945;
+	background: #4ebbb5;
 	padding: 28px 0px;
 	text-align: center;
 }
@@ -194,7 +196,7 @@ label {
 	padding-bottom: 12px;
 }
 
-input[type="number"].half{
+input[type="text"].half{
 	width: 33%;
 }
 	
